@@ -11,10 +11,10 @@
     display: none;
 }
 
-    .message ul {
-        margin-bottom: 0;
-        padding-left: 1rem;
-    }
+.message ul {
+    margin-bottom: 0;
+    padding-left: 1rem;
+}
 
 .loading {
     position: fixed;
@@ -24,25 +24,14 @@
     height: 100%;
     background-color: rgba(0, 0, 0, .5);
     display: flex;
-    z-index: 999;
+    z-index: 9999;
 }
 
     .loading > div {
         margin: auto;
     }
 
-.login-tabs-container {
+.login-tabs-container
+{
     margin-top: -40px;
-}
-
-@media (max-width:576px) {
-    #navbarToggleExternalContent {
-        position: absolute;
-        z-index: 999;
-    }
-
-    .collapse-sm {
-        display: none;
-        visibility: collapse;
-    }
 }
